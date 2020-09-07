@@ -10,4 +10,3 @@
 # Version: 0.0
 
 print("Hello, world!")
-print("Hello, Jojo")
