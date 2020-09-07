@@ -12,8 +12,8 @@
 def printvcard():
     print("Jojo Jaballas")
     print("Platform Unix/Linux Engineer")
-    print("email: jjaballas@yahoo.com")
-    print("phone: 408-657-9913")
+    print("email: xxxxxxxxx@xxxxxx.com")
+    print("phone: nnn-nnn-nnnn")
 
 # main call
 if __name__ == '__main__':
