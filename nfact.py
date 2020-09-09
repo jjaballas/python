@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/usr/bin/python3.8
 #
 # Filename: nfact.py
 #
@@ -8,12 +8,15 @@
 #
 # Date: 09/09/2020
 # Version: 0.1
-n = int(input())
+import sys
+
+n=int(sys.argv[1])
 nfact = 1
 j = n
 i = 1
 while i <= j:
-   print(n,"\t",i,"\t",nfact)
+   #print(n,"\t",i,"\t",nfact)
    nfact = nfact * n
    n -= 1
    i += 1
+print(j,"! is ",nfact,sep='')
