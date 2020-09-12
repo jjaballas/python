@@ -1,0 +1,6 @@
+#Things to record before separation date
+
+Percipio
+
+1. Python Automation Programming
+2. AWS
