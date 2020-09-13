@@ -1,0 +1,6 @@
+//Command to replace portion of file name:
+//
+//original file: frame_00_delay-0.04s.gif
+//renamed file:  frame_00.gif
+# Get-ChildItem frame_*.gif | Rename-Item -NewName {$_.NAME -replace '_delay-0.04s',''}
+
