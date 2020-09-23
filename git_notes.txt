@@ -1,0 +1,15 @@
+[jabaljoj-us.ibm.com@bastion ~]$ cat git_notes.txt
+
+$ git init
+Initialized empty Git repository in /home/jabaljoj-us.ibm.com/openshift/.git/
+$ git add .
+
+$ git config --global user.name "Jojo Jaballas"
+$ git config --global user.email "jjaballas@yahoo.com"
+
+$ git remote add origin git@github.com:jjaballas/openshift.git
+$ git commit -m "first commit"
+$ git push -u origin master
+
+//Make sure to add SSH key from user on client host
+
